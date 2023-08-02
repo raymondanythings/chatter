@@ -1,5 +1,5 @@
 {
-  "name": "chatter",
+  "name": "chatter-cli",
   "version": "1.0.0",
   "description": "코테 울렁증 극복을 위한 코테 문제설명 크롤러",
   "main": "dist/index.js",
@@ -11,7 +11,18 @@
     "chatter": "./dist/index.js",
     "ct": "./dist/index.js"
   },
-  "author": "",
+  "author": {
+    "name": "raymondanything",
+    "email": "raymondanything@gmail.com"
+  },
+  "bugs": {
+    "email": "raymondanything@gmail.com"
+  },
+  "homepage": "https://github.com/raymondanythings/chatter",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:raymondanythings/chatter.git"
+  },
   "license": "MIT",
   "dependencies": {
     "chalk": "^5.3.0",
