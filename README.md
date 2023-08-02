@@ -1,14 +1,14 @@
 
 # chatter
 
-공부도 하고 기록도 해야되지만 너무너무 귀찮아서 만든 nodejs 기반 코딩테스트 문제설명 크롤링-cli 라이브러리 입니다.
+공부도 하고 기록도 해야되지만,너무너무 귀찮아서 만든 nodejs 기반 코딩테스트 문제설명 크롤링-cli 라이브러리 입니다.
 
 ## Install
 
 
 ```bash
-npm i -g gitmoji-cli
-yarn i -g gitmoji-cli
+npm i -g chatter-cli
+yarn i -g chatter-cli
 ```
 
 

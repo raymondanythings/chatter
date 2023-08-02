@@ -128,7 +128,6 @@ class Chatter {
 const program = new CLI()
 const chatter = new Chatter()
 
-console.log('\n\n', figlet.textSync('Chatter', 'Banner3-D'))
 program
   .description("코딩테스트 문제설명 크롤러 'Chatter'")
   .version(packageJson.version, '-v | --version', '현재 버전 표시')
@@ -137,7 +136,7 @@ program
   .option('-t | --target <value>', '크롤링 위치 programmers | baekjoon', 'programmers')
   .option('-h | --help', '명령어 도움말 출력')
   .parse(process.argv)
-
+console.log('\n\n', figlet.textSync('Chatter', 'Banner3-D'))
 program.execution((args) =>
   chatter.executeCurrentCrawler(args).then(() => {
     process.exit(1)
