@@ -14,7 +14,7 @@ body:
       required: true
 
   - type: textarea
-    id: feature
+    id: suggest
     attributes:
       label: "추가 제안"
       description: "제안하는 방안이나 아이디어가 있다면 작성해주세요"
