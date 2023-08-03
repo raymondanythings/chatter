@@ -28,7 +28,9 @@ body:
       placeholder: |
         최소한의 재현 방법이나 재현 단계를 제공해주세요. 이 가이드를 참고하세요. https://stackoverflow.com/help/minimal-reproducible-example
         왜 재현과정이 필요한지에 대해서는 이 기사를 참조해 주세요. https://antfu.me/posts/why-reproductions-are-required
-
+    validations:
+      required: true
+      
   - type: textarea
     id: info
     attributes:
