@@ -1,2 +1,3 @@
 #!/usr/bin/env node
-export * from "./chatter"
+
+export * from './chatter'

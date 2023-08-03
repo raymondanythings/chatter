@@ -1,12 +1,19 @@
 {
   "name": "chatter-cli",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "코테 울렁증 극복을 위한 코테 문제설명 크롤러",
   "main": "bin/index.js",
   "scripts": {
     "build": "npx tsc",
     "dev": "npx tsc --watch"
   },
+  "keywords": [
+    "cli",
+    "command",
+    "algorithm",
+    "markdown",
+    "crawler"
+  ],
   "bin": {
     "chatter": "./bin/index.js",
     "ct": "./bin/index.js"

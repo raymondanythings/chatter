@@ -1,0 +1,46 @@
+name: 🐞 버그 신고하기
+title: '[bug] '
+description: 버그를 신고합니다
+labels: ['🐞 버그', '상태: 수정필요']
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 신고하기전에!
+        1. 해당 이슈에 관련된 [기존 이슈](https://github.com/raymondanythings/chatter/issues?q=is%3Aissue) 를 확인해주세요
+        2. [행동강령](CODE_OF_CONDUCT.md)을 준수해주세요
+
+  - type: textarea
+    id: description
+    attributes:
+      label: "버그 설명"
+      description: 버그가 대한 설명을 작성해주세요. 스크린샷이 포함되면 더욱 좋아요
+      placeholder: "버그가 어떤 것인지에 대한 명확하고 간결한 설명을 작성해주세요."
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: "재현방법"
+      description: 재현를 위한 저장소 링크나 재현단계를 알려주세요.
+      placeholder: |
+        최소한의 재현 방법이나 재현 단계를 제공해주세요. 이 가이드를 참고하세요. https://stackoverflow.com/help/minimal-reproducible-example
+        왜 재현과정이 필요한지에 대해서는 이 기사를 참조해 주세요. https://antfu.me/posts/why-reproductions-are-required
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected behavior
+      description: A clear description of what you expected to happen.
+
+  - type: textarea
+    id: info
+    attributes:
+      label: "플랫폼과 버전"
+      description: 사용하시는 OS와 버전을 알려주세요.
+    validations:
+      required: true
+
+  

@@ -1,0 +1,24 @@
+
+name: 💡 기능 제안하기
+title: '[feat] '
+description: 아이디어를 제안해주세요
+labels: ['💡 기능 제안']
+
+body:
+
+  - type: textarea
+    id: feature
+    attributes:
+      label: "기능 제안"
+      description: 제안하는 기능에 대해 설명해주세요.
+      placeholder: "여기에 자신이 제안하는 기능에 대한 설명을 작성해주세요."
+    validations:
+      required: true
+
+  - type: textarea
+    id: feature
+    attributes:
+      label: "추가 제안"
+      description: "제안하는 방안이나 아이디어가 있다면 작성해주세요"
+      placeholder: "아이디어나 제안하는 방안이 있다면 작성해주세요."
+    
