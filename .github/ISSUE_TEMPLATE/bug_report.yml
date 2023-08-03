@@ -30,12 +30,6 @@ body:
         왜 재현과정이 필요한지에 대해서는 이 기사를 참조해 주세요. https://antfu.me/posts/why-reproductions-are-required
 
   - type: textarea
-    id: expected-behavior
-    attributes:
-      label: Expected behavior
-      description: A clear description of what you expected to happen.
-
-  - type: textarea
     id: info
     attributes:
       label: "플랫폼과 버전"

@@ -1,11 +1,9 @@
-
 name: 💡 기능 제안하기
 title: '[feat] '
 description: 아이디어를 제안해주세요
 labels: ['💡 기능 제안']
 
 body:
-
   - type: textarea
     id: feature
     attributes:
