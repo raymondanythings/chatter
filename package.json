@@ -1,6 +1,6 @@
 {
   "name": "chatter-cli",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "코테 울렁증 극복을 위한 코테 문제설명 크롤러",
   "main": "bin/index.js",
   "scripts": {
