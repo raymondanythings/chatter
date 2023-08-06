@@ -17,7 +17,7 @@ yarn i -g chatter-cli
 
 ## Example
 
-![output](https://github.com/raymondanythings/chatter/assets/73725736/f5b0179d-93bd-476e-af71-cd043e2e1de0)
+![output](/misc/readme/output.gif)
 
 ## Usage
 
